@@ -10,27 +10,29 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: white;
+            color: #e0e0e0;
         }
         .container {
             text-align: center;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(20, 20, 40, 0.6);
             padding: 3rem;
             border-radius: 20px;
             backdrop-filter: blur(10px);
-            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
         h2 {
             font-size: 4rem;
             margin: 0;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            color: #ffffff;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         }
         p {
-            opacity: 0.8;
+            opacity: 0.9;
             font-size: 1.2rem;
+            color: #c0c0c0;
         }
     </style>
 </head>
